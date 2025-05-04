@@ -24,6 +24,7 @@
     pkgs.librewolf-unwrapped
 
     # usefull stuff
+    pkgs.nautilus
     pkgs.spotdl
     pkgs.obs-studio
     pkgs.obsidian
