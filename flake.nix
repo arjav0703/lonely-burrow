@@ -12,99 +12,35 @@
     wakatime-ls.inputs.nixpkgs.follows = "nixpkgs";
   };
 
-  outputs = {nixpkgs, ...} @ inputs: let
-    system = "x86_64-linux";
-    host = "lonely-burrow";
-    profile = "intel";
-    username = "arjav";
-    pkgs = import nixpkgs {inherit system;};
-  in {
-    nixosConfigurations = {
-      amd = nixpkgs.lib.nixosSystem {
-        inherit system;
-        specialArgs = {
-          inherit inputs;
-          inherit username;
-          inherit host;
-          inherit profile;
+  outputs =
+    { nixpkgs, ... }@inputs:
+    let
+      system = "x86_64-linux";
+      host = "lonely-burrow";
+      profile = "intel";
+      username = "arjav";
+      pkgs = import nixpkgs { inherit system; };
+    in
+    {
+      nixosConfigurations = {
+
+        intel = nixpkgs.lib.nixosSystem {
+          inherit system;
+          specialArgs = {
+            inherit inputs;
+            inherit username;
+            inherit host;
+            inherit profile;
+          };
+          modules = [
+            ./profiles/intel
+            {
+              environment.systemPackages = [
+                inputs.wakatime-ls.packages.${pkgs.system}.default
+              ];
+            }
+          ];
         };
-        modules = [
-          ./profiles/amd
-          {
-            environment.systemPackages = [
-              inputs.wakatime-ls.packages.${pkgs.system}.default
-            ];
-          }
-        ];
-      };
-      nvidia = nixpkgs.lib.nixosSystem {
-        inherit system;
-        specialArgs = {
-          inherit inputs;
-          inherit username;
-          inherit host;
-          inherit profile;
-        };
-        modules = [
-          ./profiles/nvidia
-          {
-            environment.systemPackages = [
-              inputs.wakatime-ls.packages.${pkgs.system}.default
-            ];
-          }
-        ];
-      };
-      nvidia-laptop = nixpkgs.lib.nixosSystem {
-        inherit system;
-        specialArgs = {
-          inherit inputs;
-          inherit username;
-          inherit host;
-          inherit profile;
-        };
-        modules = [
-          ./profiles/nvidia-laptop
-          {
-            environment.systemPackages = [
-              inputs.wakatime-ls.packages.${pkgs.system}.default
-            ];
-          }
-        ];
-      };
-      intel = nixpkgs.lib.nixosSystem {
-        inherit system;
-        specialArgs = {
-          inherit inputs;
-          inherit username;
-          inherit host;
-          inherit profile;
-        };
-        modules = [
-          ./profiles/intel
-          {
-            environment.systemPackages = [
-              inputs.wakatime-ls.packages.${pkgs.system}.default
-            ];
-          }
-        ];
-      };
-      vm = nixpkgs.lib.nixosSystem {
-        inherit system;
-        specialArgs = {
-          inherit inputs;
-          inherit username;
-          inherit host;
-          inherit profile;
-        };
-        modules = [
-          ./profiles/vm
-          {
-            environment.systemPackages = [
-              inputs.wakatime-ls.packages.${pkgs.system}.default
-            ];
-          }
-        ];
       };
     };
-  };
 }
