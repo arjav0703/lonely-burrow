@@ -45,6 +45,7 @@
     vim
 
     pkgs.python39
+    pkgs.nixd
 
     # Web dev tools
     pkgs.nodejs_23
