@@ -9,6 +9,7 @@
     pkgs.usbutils
 
     # Yubikey support
+    pkgs.yubioath-flutter
     pkgs.pcsclite
     pkgs.pcsc-tools
     pkgs.pam_u2f
