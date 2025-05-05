@@ -12,6 +12,13 @@
     wakatime-ls.url = "github:mrnossiom/wakatime-ls";
     wakatime-ls.inputs.nixpkgs.follows = "nixpkgs";
   };
+  #  environment.systemPackages = with pkgs; [
+  #  inputs.wakatime-ls.packages.${pkgs.system}.default
+  # or: inputs.wakatime-ls.packages.${pkgs.system}.wakatime-ls
+  #];
+  environment.systemPackages = [
+    inputs.wakatime-ls.packages.${pkgs.system}.default
+  ];
 
   outputs = {nixpkgs, ...} @ inputs: let
     system = "x86_64-linux";
