@@ -1,5 +1,5 @@
 {
-  # Git Configuration ( For Pulling Software Repos )
+  time.timeZone = "Asia/Kolkata";
   gitUsername = "arjav0703";
   gitEmail = "arjavjain0703@gmail.com";
 
