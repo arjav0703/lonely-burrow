@@ -25,6 +25,7 @@
     pkgs.librewolf-unwrapped
 
     # usefull stuff
+    pkgs.protonvpn-gui
     pkgs.nautilus
     pkgs.nuclear
     pkgs.spotdl
