@@ -1,6 +1,6 @@
 {pkgs, ...}: {
   environment.systemPackages = with pkgs; [
-  # Utilities
+    # Utilities
     pkgs.wirelesstools
     pkgs.lshw
     pkgs.nix-prefetch
@@ -14,7 +14,7 @@
     pkgs.pam_u2f
     pkgs.pcscliteWithPolkit
 
-# Apps
+    # Apps
     # comms
     pkgs.slack
     pkgs.vesktop
@@ -32,9 +32,9 @@
     pkgs.kitty
     pkgs.hyfetch
 
-
-# DEV TOOLS
+    # DEV TOOLS
     # CLIs
+    pkgs.wakatime-cli
     pkgs.git
     pkgs.gh
     pkgs.lazygit
