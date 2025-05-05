@@ -1,5 +1,4 @@
-{ pkgs, ... }:
-{
+{pkgs, ...}: {
   environment.systemPackages = with pkgs; [
     # Utilities
     pkgs.wirelesstools
@@ -26,6 +25,7 @@
 
     # usefull stuff
     pkgs.nautilus
+    pkgs.nuclear
     pkgs.spotdl
     pkgs.obs-studio
     pkgs.obsidian
