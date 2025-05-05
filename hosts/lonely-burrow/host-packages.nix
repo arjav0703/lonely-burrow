@@ -1,4 +1,5 @@
-{pkgs, ...}: {
+{ pkgs, ... }:
+{
   environment.systemPackages = with pkgs; [
     # Utilities
     pkgs.wirelesstools
@@ -24,6 +25,7 @@
     pkgs.librewolf-unwrapped
 
     # usefull stuff
+    pkgs.zoom-us
     pkgs.nautilus
     pkgs.spotdl
     pkgs.obs-studio
@@ -40,6 +42,7 @@
     pkgs.lazygit
     pkgs.lazydocker
     # GUIs
+    pkgs.kicad
     pkgs.zed-editor-fhs
     pkgs.neovim
     vim
