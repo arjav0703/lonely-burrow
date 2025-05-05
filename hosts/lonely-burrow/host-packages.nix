@@ -24,6 +24,7 @@
     pkgs.librewolf-unwrapped
 
     # usefull stuff
+    pkgs.spotify
     pkgs.nautilus
     pkgs.spotdl
     pkgs.obs-studio
@@ -48,6 +49,7 @@
     pkgs.nixd
 
     # Web dev tools
+    pkgs.pnpm
     pkgs.nodejs_23
     pkgs.node2nix
     pkgs.nodemon
