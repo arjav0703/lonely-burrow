@@ -1,4 +1,5 @@
-{pkgs, ...}: {
+{ pkgs, ... }:
+{
   environment.systemPackages = with pkgs; [
     # Utilities
     pkgs.wirelesstools
@@ -24,7 +25,6 @@
     pkgs.librewolf-unwrapped
 
     # usefull stuff
-    pkgs.spotify
     pkgs.nautilus
     pkgs.spotdl
     pkgs.obs-studio
