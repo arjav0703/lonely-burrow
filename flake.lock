@@ -241,6 +241,27 @@
         "type": "github"
       }
     },
+    "gitignore_2": {
+      "inputs": {
+        "nixpkgs": [
+          "wakatime-ls",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1709087332,
+        "narHash": "sha256-HG2cCnktfHsKV0s4XW83gU3F57gaTljL9KNSuG6bnQs=",
+        "owner": "hercules-ci",
+        "repo": "gitignore.nix",
+        "rev": "637db329424fd7e46cf4185293b9cc8c88c95394",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hercules-ci",
+        "repo": "gitignore.nix",
+        "type": "github"
+      }
+    },
     "gnome-shell": {
       "flake": false,
       "locked": {
@@ -471,7 +492,8 @@
         "home-manager": "home-manager",
         "nixpkgs": "nixpkgs",
         "nvf": "nvf",
-        "stylix": "stylix"
+        "stylix": "stylix",
+        "wakatime-ls": "wakatime-ls"
       }
     },
     "rust-overlay": {
@@ -488,6 +510,27 @@
         "owner": "oxalica",
         "repo": "rust-overlay",
         "rev": "aefb7017d710f150970299685e8d8b549d653649",
+        "type": "github"
+      },
+      "original": {
+        "owner": "oxalica",
+        "repo": "rust-overlay",
+        "type": "github"
+      }
+    },
+    "rust-overlay_2": {
+      "inputs": {
+        "nixpkgs": [
+          "wakatime-ls",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1746153335,
+        "narHash": "sha256-vwKelhJJS8haCdH3t8uf96VFao7/YzJahPG5JLTO1PU=",
+        "owner": "oxalica",
+        "repo": "rust-overlay",
+        "rev": "ebc7823c3ffde594c7733113042b72694d996de9",
         "type": "github"
       },
       "original": {
@@ -677,6 +720,28 @@
       "original": {
         "owner": "numtide",
         "repo": "treefmt-nix",
+        "type": "github"
+      }
+    },
+    "wakatime-ls": {
+      "inputs": {
+        "gitignore": "gitignore_2",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "rust-overlay": "rust-overlay_2"
+      },
+      "locked": {
+        "lastModified": 1746199613,
+        "narHash": "sha256-8ui0dQx0y+oW+5YZXBPPZPfLPGSBppci41hqmsr27G0=",
+        "owner": "mrnossiom",
+        "repo": "wakatime-ls",
+        "rev": "c39a65a2b1f8e01bc053ecf77a94ef0d7c1a222d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mrnossiom",
+        "repo": "wakatime-ls",
         "type": "github"
       }
     }
