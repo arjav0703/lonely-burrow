@@ -34,7 +34,7 @@
 
     # DEV TOOLS
     # CLIs
-    pkg.wakatime-ls
+    pkgs.wakatime-ls
     pkgs.wakatime-cli
     pkgs.git
     pkgs.gh
