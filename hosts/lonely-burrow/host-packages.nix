@@ -1,4 +1,5 @@
-{pkgs, ...}: {
+{ pkgs, ... }:
+{
   environment.systemPackages = with pkgs; [
     # Utilities
     pkgs.wirelesstools
@@ -7,6 +8,7 @@
     pkgs.pciutils
     pkgs.usb-modeswitch
     pkgs.usbutils
+    pkgs.wtype
 
     # Yubikey support
     pkgs.yubioath-flutter
