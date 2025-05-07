@@ -1,5 +1,4 @@
-{ pkgs, ... }:
-{
+{pkgs, ...}: {
   environment.systemPackages = with pkgs; [
     # Utilities
     pkgs.wirelesstools
@@ -36,6 +35,7 @@
     pkgs.solaar
     pkgs.kitty
     pkgs.hyfetch
+    pkgs.chezmoi
 
     # DEV TOOLS
     # CLIs
