@@ -1,4 +1,5 @@
-{pkgs, ...}: {
+{ pkgs, ... }:
+{
   environment.systemPackages = with pkgs; [
     # Utilities
     pkgs.wirelesstools
@@ -53,6 +54,7 @@
     pkgs.nixd
 
     # Web dev tools
+    pkgs.eslint
     pkgs.pnpm
     pkgs.nodejs_23
     pkgs.node2nix
