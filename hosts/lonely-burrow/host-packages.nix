@@ -1,5 +1,4 @@
-{ pkgs, ... }:
-{
+{pkgs, ...}: {
   environment.systemPackages = with pkgs; [
     # Utilities
     pkgs.wirelesstools
@@ -37,6 +36,7 @@
     pkgs.kitty
     pkgs.hyfetch
     pkgs.chezmoi
+    pkgs.wpsoffice
 
     # DEV TOOLS
     # CLIs
