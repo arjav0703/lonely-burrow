@@ -47,6 +47,7 @@
     pkgs.lazydocker
     # GUIs
     pkgs.zed-editor
+    pkgs.vscodium-fhs
     pkgs.neovim
     vim
 
