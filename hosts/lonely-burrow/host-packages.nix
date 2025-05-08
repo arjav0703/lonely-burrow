@@ -46,7 +46,7 @@
     pkgs.lazygit
     pkgs.lazydocker
     # GUIs
-    pkgs.zed-editor-fhs
+    pkgs.zed-editor
     pkgs.neovim
     vim
 
