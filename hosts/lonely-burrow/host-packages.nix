@@ -46,6 +46,7 @@
     pkgs.gh
     pkgs.lazygit
     pkgs.lazydocker
+
     # GUIs
     pkgs.zed-editor
     pkgs.vscodium-fhs
