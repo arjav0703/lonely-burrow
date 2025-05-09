@@ -27,7 +27,6 @@
 
     # usefull stuff
     pkgs.protonvpn-gui
-    pkgs.spotify
     pkgs.nautilus
     pkgs.spotdl
     pkgs.obs-studio
