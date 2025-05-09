@@ -39,6 +39,7 @@
     pkgs.wpsoffice
 
     # DEV TOOLS
+
     # CLIs
     pkgs.wakatime-cli
     pkgs.git
