@@ -17,7 +17,6 @@
     ./steam.nix
     ./syncthing.nix
     ./system.nix
-    ./thunar.nix
     ./user.nix
     ./virtualisation.nix
     ./xserver.nix

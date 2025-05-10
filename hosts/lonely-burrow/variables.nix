@@ -22,4 +22,9 @@
   # Enable NFS
   enableNFS = true;
 
+  # Enable Printing Support
+  printEnable = false;
+
+  programs.nix-ld.enable = true;
+
 }

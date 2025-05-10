@@ -26,6 +26,8 @@ in
       curl
       cpufrequtils
       duf
+      eza
+      bat
       findutils
       ffmpeg
       glib # for gsettings to work
@@ -103,8 +105,6 @@ in
     font-awesome
     terminus_font
     victor-mono
-    (nerdfonts.override { fonts = [ "JetBrainsMono" ]; }) # stable banch
-    (nerdfonts.override { fonts = [ "FantasqueSansMono" ]; }) # stable banch
 
     #nerd-fonts.jetbrains-mono # unstable
     #nerd-fonts.fira-code # unstable
