@@ -24,7 +24,7 @@
 
     # browsers
     pkgs.brave
-    pkgs.librewolf-unwrapped
+    pkgs.librewolf
 
     # usefull stuff
     pkgs.protonvpn-gui

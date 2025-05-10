@@ -123,7 +123,7 @@ in
 
     waybar.enable = true;
     hyprlock.enable = true;
-    firefox.enable = true;
+    firefox.enable = false;
     git.enable = true;
     nm-applet.indicator = true;
     neovim.enable = true;
