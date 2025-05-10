@@ -22,12 +22,4 @@
   # Enable NFS
   enableNFS = true;
 
-  # Enable Printing Support
-  printEnable = false;
-
-  # Enable Thunar GUI File Manager
-  thunarEnable = false;
-
-  programs.nix-ld.enable = true;
-
 }

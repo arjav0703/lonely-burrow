@@ -1,4 +1,5 @@
-{inputs, ...}: {
+{ inputs, ... }:
+{
   imports = [
     ./boot.nix
     ./flatpak.nix
@@ -14,7 +15,6 @@
     ./services.nix
     ./starfish.nix
     ./steam.nix
-    ./stylix.nix
     ./syncthing.nix
     ./system.nix
     ./thunar.nix
