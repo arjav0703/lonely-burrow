@@ -2,7 +2,11 @@
   time.timeZone = "Asia/Kolkata";
   gitUsername = "arjav0703";
   gitEmail = "arjavjain0703@gmail.com";
-
+  programs.git = {
+      enable = true;
+      userName = "arjav0703";
+      userEmail = "arjavjain0703@gmail.com";
+    };
   # Hyprland Settings
   extraMonitorSettings = "monitor=HDMI-A-1,1920x1080@99.93,0x0,1.0";
 
