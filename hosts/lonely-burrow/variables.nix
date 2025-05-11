@@ -10,7 +10,7 @@
   clock24h = false;
 
   # Program Options
-  browser = "brave";
+  browser = "librewolf";
   terminal = "kitty";
   keyboardLayout = "us";
   consoleKeyMap = "us";
