@@ -9,6 +9,7 @@
     pkgs.usbutils
     pkgs.wtype
     pkgs.ripgrep
+    
     # Yubikey support
     pkgs.yubioath-flutter
     pkgs.pcsclite
@@ -54,6 +55,7 @@
     pkgs.vscodium-fhs
     pkgs.neovim
     vim
+    pkgs.devtoolbox
 
     pkgs.python39
     pkgs.nixd
