@@ -10,7 +10,6 @@
     ./nfs.nix
     ./nh.nix
     ./packages.nix
-    ./printing.nix
     ./security.nix
     ./services.nix
     ./starfish.nix
