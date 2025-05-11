@@ -18,5 +18,10 @@
       magicOrExtension = ''\x7fELF....AI\x02'';
     };
     plymouth.enable = true;
+    plymouth.logo = "/home/arjav/Pictures/wallpapers/Wall.png";
+    kernelParams = [ "quiet" "splash" ];
+    consoleLogLevel = 3;
+    initrd.verbose = false;
+    initrd.systemd.enable = true;
   };
 }

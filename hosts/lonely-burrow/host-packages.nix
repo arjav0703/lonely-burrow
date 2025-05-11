@@ -37,6 +37,8 @@
     pkgs.hyfetch
     pkgs.chezmoi
     pkgs.wpsoffice
+    pkgs.zoxide
+    pkgs.yazi
 
     # DEV TOOLS
 
