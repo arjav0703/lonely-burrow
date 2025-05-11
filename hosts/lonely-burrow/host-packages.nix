@@ -8,7 +8,7 @@
     pkgs.usb-modeswitch
     pkgs.usbutils
     pkgs.wtype
-
+    pkgs.ripgrep
     # Yubikey support
     pkgs.yubioath-flutter
     pkgs.pcsclite
