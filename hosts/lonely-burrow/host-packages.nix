@@ -24,7 +24,7 @@
     pkgs.vesktop
 
     # browsers
-    pkgs.brave
+    pkgs.ladybird
     pkgs.librewolf
 
     # usefull stuff
