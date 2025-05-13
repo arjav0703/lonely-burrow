@@ -20,11 +20,9 @@
     # Apps
 
     # comms
-    pkgs.slack
     pkgs.vesktop
 
     # browsers
-    pkgs.ladybird
     pkgs.librewolf
 
     # usefull stuff
