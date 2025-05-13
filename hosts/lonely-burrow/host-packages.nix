@@ -29,6 +29,7 @@
     pkgs.krita
     pkgs.kdenlive
     pkgs.gimp
+    pkgs.libsForQt5.kgpg
     pkgs.protonvpn-gui
     pkgs.nautilus
     pkgs.spotdl
