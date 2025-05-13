@@ -57,7 +57,6 @@
     pkgs.devtoolbox
 
     pkgs.python39
-    pkgs.rustup
     pkgs.nixd
 
     # Web dev tools
