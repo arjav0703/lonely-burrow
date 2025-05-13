@@ -26,6 +26,9 @@
     pkgs.librewolf
 
     # usefull stuff
+    pkgs.krita
+    pkgs.kdenlive
+    pkgs.gimp
     pkgs.protonvpn-gui
     pkgs.nautilus
     pkgs.spotdl
