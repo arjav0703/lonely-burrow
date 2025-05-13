@@ -58,7 +58,11 @@
     pkgs.devtoolbox
 
     pkgs.python39
-    pkgs.nixd
+    pkgs.nixd 
+    pkgs.rust-analyzer
+    pkgs.rustc
+    pkgs.cargo
+    pkgs.rustfmt
 
     # Web dev tools
     pkgs.eslint
