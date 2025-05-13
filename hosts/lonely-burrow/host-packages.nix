@@ -27,7 +27,7 @@
 
     # usefull stuff
     pkgs.krita
-    pkgs.kdenlive
+    pkgs.libsForQt5.kdenlive
     pkgs.gimp
     pkgs.libsForQt5.kgpg
     pkgs.protonvpn-gui
