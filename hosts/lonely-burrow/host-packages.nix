@@ -33,7 +33,6 @@
     pkgs.protonvpn-gui
     pkgs.nautilus
     pkgs.spotdl
-    pkgs.obs-studio
     pkgs.obsidian
     pkgs.solaar
     pkgs.kitty
