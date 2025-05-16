@@ -42,6 +42,7 @@ in
       wget
       xdg-user-dirs
       xdg-utils
+      xdg-utils-cxx
 
       fastfetch
       (mpv.override { scripts = [ mpvScripts.mpris ]; }) # with tray
