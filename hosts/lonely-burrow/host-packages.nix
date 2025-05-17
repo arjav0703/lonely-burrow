@@ -8,8 +8,9 @@
     pkgs.usb-modeswitch
     pkgs.usbutils
     pkgs.wtype
+    pkgs.htop
     pkgs.ripgrep
-    
+
     # Yubikey support
     pkgs.yubioath-flutter
     pkgs.pcsclite
@@ -26,7 +27,10 @@
     pkgs.librewolf
 
     # usefull stuff
+    pkgs.obs-studio
+    pkgs.obs-studio-plugins.wlrobs
     pkgs.krita
+    pkgs.wl-screenrec
     pkgs.libsForQt5.kdenlive
     pkgs.gimp
     pkgs.libsForQt5.kgpg
@@ -59,7 +63,7 @@
     pkgs.devtoolbox
 
     pkgs.python39
-    pkgs.nixd 
+    pkgs.nixd
     pkgs.rust-analyzer
     pkgs.rustc
     pkgs.cargo

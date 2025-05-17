@@ -36,13 +36,13 @@ in
       killall
       libappindicator
       libnotify
+      mlocate
       openssl # required by Rainbow borders
       pciutils
       vim
       wget
       xdg-user-dirs
       xdg-utils
-      xdg-utils-cxx
 
       fastfetch
       (mpv.override { scripts = [ mpvScripts.mpris ]; }) # with tray
@@ -83,6 +83,7 @@ in
       swaynotificationcenter
       swww
       unzip
+      v4l-utils
       wallust
       wl-clipboard
       wlogout
@@ -115,11 +116,11 @@ in
   programs = {
     hyprland = {
       enable = true;
-      #package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland; #hyprland-git
-      #portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland; #xdph-git
+      # #package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland; #hyprland-git
+      # #portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland; #xdph-git
 
-      portalPackage = pkgs.xdg-desktop-portal-hyprland; # xdph none git
-      xwayland.enable = true;
+      # portalPackage = pkgs.xdg-desktop-portal-hyprland; # xdph none git
+      # xwayland.enable = true;
     };
 
     waybar.enable = true;
@@ -163,14 +164,8 @@ in
   # Extra Portal Configuration
   xdg.portal = {
     enable = true;
-    wlr.enable = false;
-    extraPortals = [
-      pkgs.xdg-desktop-portal-gtk
-    ];
-    configPackages = [
-      pkgs.xdg-desktop-portal-gtk
-      pkgs.xdg-desktop-portal
-    ];
+    extraPortals = [pkgs.xdg-desktop-portal-hyprland];
+    configPackages = [pkgs.hyprland];
   };
 
 }
