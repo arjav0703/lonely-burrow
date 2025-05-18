@@ -280,11 +280,11 @@
     },
     "mnw": {
       "locked": {
-        "lastModified": 1746338991,
-        "narHash": "sha256-GbyoHjf14LOxZQc+0NFblI4xf/uwGrYo3W8lwE4HcwI=",
+        "lastModified": 1747499976,
+        "narHash": "sha256-YTiSI4WLbk0CleXeBheYmKZV6iqKyBpyoh1e+vcQzu4=",
         "owner": "Gerg-L",
         "repo": "mnw",
-        "rev": "c65407ee9387ef75985dad3e30f58c822c766ec1",
+        "rev": "72433a144c4ac16931e9148f78db4a0e4c147441",
         "type": "github"
       },
       "original": {
@@ -418,11 +418,11 @@
         "systems": "systems_2"
       },
       "locked": {
-        "lastModified": 1747458218,
-        "narHash": "sha256-/VTiSN3S+xR7VYaDoT013d7qKoDkTbzek2MQWa0hiV0=",
+        "lastModified": 1747525582,
+        "narHash": "sha256-oEZ6DV4bPcNZIuwW5Kcd+/zT3PMkXse2kX/3jHoomGk=",
         "owner": "notashelf",
         "repo": "nvf",
-        "rev": "4399a05a46781f642e5df3fd3f340cd90bf7abd3",
+        "rev": "d3a0e7029ac57eef1120225973247851c5b967b5",
         "type": "github"
       },
       "original": {
@@ -504,11 +504,11 @@
         "tinted-zed": "tinted-zed"
       },
       "locked": {
-        "lastModified": 1747441332,
-        "narHash": "sha256-On+cwR/dMW9s+YWsYifIaRs18nNyK5HVFJav6HsRrU8=",
+        "lastModified": 1747533965,
+        "narHash": "sha256-MEbRvR/ZlQHf8vcX1AIby/ILdN/q7SSMGCd2mWIy1DA=",
         "owner": "danth",
         "repo": "stylix",
-        "rev": "101d23dfacbb2704c40639ae9b6ac1d41de7143a",
+        "rev": "5f6f08daad947b3116ccb878e4226e6bdf7a0c61",
         "type": "github"
       },
       "original": {

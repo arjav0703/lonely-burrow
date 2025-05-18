@@ -72,7 +72,7 @@
     # Web dev tools
     pkgs.eslint
     pkgs.pnpm
-    pkgs.nodejs_23
+    pkgs.nodejs_24
     pkgs.node2nix
     pkgs.nodemon
     pkgs.typescript

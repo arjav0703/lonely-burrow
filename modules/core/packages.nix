@@ -21,7 +21,6 @@ in
       # System Packages
       bc
       baobab
-      btrfs-progs
       clang
       curl
       cpufrequtils
