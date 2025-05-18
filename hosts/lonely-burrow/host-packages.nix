@@ -65,6 +65,8 @@
     pkgs.python3
     pkgs.nixd
     pkgs.rust-analyzer
+    pkgs.vimPlugins.coc-rust-analyzer   
+    pkgs.vimPlugins.rustaceanvim
     pkgs.rustc
     pkgs.cargo
     pkgs.rustfmt

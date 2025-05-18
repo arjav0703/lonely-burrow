@@ -107,9 +107,9 @@ in
     terminus_font
     victor-mono
 
-    #nerd-fonts.jetbrains-mono # unstable
-    #nerd-fonts.fira-code # unstable
-    #nerd-fonts.fantasque-sans-mono #unstable
+    nerd-fonts.jetbrains-mono # unstable
+    nerd-fonts.fira-code # unstable
+    nerd-fonts.fantasque-sans-mono #unstable
   ];
 
   programs = {
