@@ -62,7 +62,7 @@
     vim
     pkgs.devtoolbox
 
-    pkgs.python39
+    pkgs.python3
     pkgs.nixd
     pkgs.rust-analyzer
     pkgs.rustc
