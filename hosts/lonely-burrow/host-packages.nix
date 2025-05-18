@@ -66,7 +66,9 @@
     pkgs.nixd
     pkgs.rust-analyzer
     pkgs.vimPlugins.coc-rust-analyzer   
+    pkgs.vimPlugins.CopilotChat-nvim
     pkgs.vimPlugins.rustaceanvim
+    pkgs.vimPlugins.copilot-lua
     pkgs.rustc
     pkgs.cargo
     pkgs.rustfmt
