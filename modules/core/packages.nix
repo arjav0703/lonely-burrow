@@ -40,8 +40,6 @@ in
       pciutils
       vim
       wget
-      xdg-user-dirs
-      xdg-utils
 
       fastfetch
       (mpv.override { scripts = [ mpvScripts.mpris ]; }) # with tray
@@ -147,8 +145,6 @@ in
     #  dedicatedServer.openFirewall = true;
     #};
 
-    xwayland.enable = true;
-
     dconf.enable = true;
     seahorse.enable = true;
     fuse.userAllowOther = true;
@@ -158,13 +154,6 @@ in
       enableSSHSupport = true;
     };
 
-  };
-
-  # Extra Portal Configuration
-  xdg.portal = {
-    enable = true;
-    extraPortals = [pkgs.xdg-desktop-portal-hyprland];
-    configPackages = [pkgs.hyprland];
   };
 
 }
