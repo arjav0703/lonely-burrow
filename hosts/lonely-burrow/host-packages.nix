@@ -27,7 +27,6 @@
     pkgs.librewolf
 
     # usefull stuff
-    pkgs.vdrift
     pkgs.obs-studio
     pkgs.obs-studio-plugins.wlrobs
     pkgs.krita
