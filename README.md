@@ -6,6 +6,9 @@ Clone this repo and run the following on your terminal
 
 1. Run:
     ```
+    cd lonely-burrow
+    mkdir hosts/<your-hostname>
+    cp hosts/lonely-burroy/* hosts/<your-hostname>
     sudo nixos-generate-config ./
     ```
 2. Replace your current `hosts/<your-host>/hardware.nix` with the contents of the new `hardware-configuration.nix`.
